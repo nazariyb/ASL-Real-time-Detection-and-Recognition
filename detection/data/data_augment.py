@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import random
-from utils.box_utils import matrix_iof
+from detection.utils.box_utils import matrix_iof
 
 
 def _crop(image, boxes, labels, img_dim):
